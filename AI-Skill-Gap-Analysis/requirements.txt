@@ -1,0 +1,16 @@
+streamlit>=1.40,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+pypdf>=5,<7
+# Optional AI integrations:
+google-genai>=1,<2
+# Optional advanced RAG/embedding stack (not imported at startup):
+sentence-transformers>=3,<6
+chromadb>=0.5,<2
+transformers>=4.45,<5
+langchain>=0.3,<1
+langchain-community>=0.3,<1
+# torch is intentionally NOT required by the core app; this avoids the Windows shm.dll policy error.
